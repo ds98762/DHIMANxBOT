@@ -1,6 +1,7 @@
 import os
-
-
+from telethon import TelegramClient
+from pyrogram import Client
+from config import API_ID, API_HASH, STRING1, STRING2, STRING3, STRING4, STRING5
 
 
 # CLIENT 1
