@@ -3,36 +3,58 @@ import os
 
 
 
-
-if CLI_TYPE.startwith("T"):
-    print("[INFO]Starting SpamUserbot with Telethon Clients")
-    try:
-        if STRING1:
-            print("[INFO] STRING1 found so Booting.. ") 
-            cli1 = TelegramClient(StringSession(STRING1), API_ID, API_HASH)
-        else:
-            Print("[INFO] STRING1 Not found, Skipping.. ") 
-        if STRING2:
-            print("[INFO] STRING2 found so Booting.. ") 
-            cli2 = TelegramClient(StringSession(STRING2), API_ID, API_HASH)
-        else:
-            Print("[INFO] STRING2 Not found, Skipping.. ") 
-        if STRING3:
-            print("[INFO] STRING3 found so Booting.. ") 
-            cli3 = TelegramClient(StringSession(STRING3), API_ID, API_HASH)
-        else:
-            Print("[INFO] STRING3 Not found, Skipping.. ") 
-        if STRING4:
-            print("[INFO] STRING4 found so Booting.. ") 
-            cli4 = TelegramClient(StringSession(STRING4), API_ID, API_HASH)
-        else:
-            Print(" [INFO] STRING4 Not found, Skipping..")
+# CLIENT 1
+if STRING1.endswith("=")::
+    print("[TELETHON] STRING1 Found! Booting.. ") 
+    cli1 = TelegramClient(StringSession(STRING1), API_ID, API_HASH)
 else:
-    print("[INFO]Starting SpamUserbot with Pyrogram Client")
-    try:
+    Print("[PYROGRAM] STRING1 Found! Booting..") 
+    cli1 = Client(session_name=STRING1, api_id=API_ID, api_hash=API_HASH, plugins=dict(root=f"DEADLYSPAM.pyrogram"))
+else:
+    print("[INFO] STRING1 not Found! Skipped ⭐") 
+    cli1 = None
 
+# CLIENT 2
+if STRING2.endswith("=")::
+    print("[TELETHON] STRING1 Found! Booting.. ") 
+    cli2 = TelegramClient(StringSession(STRING2), API_ID, API_HASH)
+else:
+    Print("[PYROGRAM] STRING2 Found! Booting..") 
+    cli2 = Client(session_name=STRING2, api_id=API_ID, api_hash=API_HASH, plugins=dict(root=f"DEADLYSPAM.pyrogram"))
+else:
+    print("[INFO] STRING2 not Found! Skipped ⭐") 
+    cli2 = None
 
+# CLIENT 3
+if STRING3.endswith("=")::
+    print("[TELETHON] STRING3 Found! Booting.. ") 
+    cli3 = TelegramClient(StringSession(STRING3), API_ID, API_HASH)
+else:
+    Print("[PYROGRAM] STRING3 Found! Booting..") 
+    cli3 = Client(session_name=STRING3, api_id=API_ID, api_hash=API_HASH, plugins=dict(root=f"DEADLYSPAM.pyrogram"))
+else:
+    print("[INFO] STRING3 not Found! Skipped ⭐") 
+    cli3 = None
 
-print("[INFO] Processing To Development!") 
+# CLIENT 4
+if STRING4.endswith("=")::
+    print("[TELETHON] STRING4 Found! Booting.. ") 
+    cli4 = TelegramClient(StringSession(STRING4), API_ID, API_HASH)
+else:
+    Print("[PYROGRAM] STRING4 Found! Booting..") 
+    cli4 = Client(session_name=STRING4, api_id=API_ID, api_hash=API_HASH, plugins=dict(root=f"DEADLYSPAM.pyrogram"))
+else:
+    print("[INFO] STRING4 not Found! Skipped ⭐") 
+    cli4 = None
 
+# CLIENT 5
+if STRING5.endswith("=")::
+    print("[TELETHON] STRING5 Found! Booting.. ") 
+    cli5 = TelegramClient(StringSession(STRING5), API_ID, API_HASH)
+else:
+    Print("[PYROGRAM] STRING5 Found! Booting..") 
+    cli5 = Client(session_name=STRING5, api_id=API_ID, api_hash=API_HASH, plugins=dict(root=f"DEADLYSPAM.pyrogram"))
+else:
+    print("[INFO] STRING5 not Found! Skipped ⭐") 
+    cli5 = None
 
