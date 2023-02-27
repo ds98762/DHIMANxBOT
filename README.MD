@@ -1,13 +1,13 @@
-<h1 align="center"><img src="./resources/geez.gif" width="28px">𝙳𝙴𝙰𝙳𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃<img src="./resources/geez.gif" width="28px"></h1>
+<h1 align="center"><img src="./resources/geez.gif" width="28px">𝙳𝙷𝙸𝙼𝙰𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃<img src="./resources/geez.gif" width="28px"></h1>
 
 <p align="center">
-    <a href="https://t.me/DEADLY_SPAM_BOT"><img src="https://img.shields.io/badge/sᴜᴘᴘᴏʀᴛ%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
-    <a href="https://t.me/DEADLY_SPAMBOT"><img src="https://img.shields.io/badge/ᴜᴘᴅᴀᴛᴇ%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+    <a href="https://t.me/DHIMAN_SPAM_BOT"><img src="https://img.shields.io/badge/sᴜᴘᴘᴏʀᴛ%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
+    <a href="https://t.me/DHIMAN_SPAM_BOT"><img src="https://img.shields.io/badge/ᴜᴘᴅᴀᴛᴇ%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
     </p>
 
 
 <p align="center">
-   <a href="https://github.com/Team-Deadly/DEADLY-USERBOT"><img src="https://te.legra.ph/file/1708946d4d11f914761f2.jpg" alt="Deadly-Userbot" width=400px></a>
+   <a href="https://github.com/Team-Deadly/DEADLY-USERBOT"><img src="https://telegra.ph/file/6fffe0e7fecd0f8c6c568.png" alt="Deadly-Userbot" width=400px></a>
    <br>
    <br>
 </p>
